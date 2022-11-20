@@ -1,0 +1,17 @@
+.Container {
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    height: var(--footer-height);
+    background: var(--footer-background);
+
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: end;
+    box-sizing: border-box;
+    gap: 24px;
+    padding: 0 24px;
+}
+

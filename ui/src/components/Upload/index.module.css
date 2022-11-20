@@ -1,0 +1,28 @@
+.Container {
+    width: var(--text-width);
+    margin: 0 auto 32px auto;
+}
+
+.UploadContainer {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.FileUpload {
+    display: none;
+}
+
+.Button {
+    background: var(--accent-color);
+    color: var(--text-color);
+    font-family: barlowcondensed, sans-serif;
+    font-size: 24px;
+    letter-spacing: .1rem;
+    outline: 0;
+    border-radius: 12px;
+    padding: 4px 24px;
+    margin: 48px 0;
+}
+

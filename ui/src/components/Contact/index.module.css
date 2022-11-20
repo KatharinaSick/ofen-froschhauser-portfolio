@@ -1,0 +1,38 @@
+.Container {
+    width: var(--text-width);
+    margin: 0 auto 32px auto;
+}
+
+.ContactContainer {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ContactItem {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.Contact {
+    font-style: italic;
+    color: var(--accent-color)
+}
+
+.IconInfo {
+    width: 100%;
+    text-align: right;
+    margin-top: 64px;
+}
+
+@media screen and (max-width: 800px) {
+    .Container {
+        width: 95%;
+    }
+
+    .ContactContainer {
+        flex-flow: column;
+    }
+}

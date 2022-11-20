@@ -1,0 +1,128 @@
+:root {
+    --background: #222222;
+    --footer-background: #333333;
+    --footer-height: 56px;
+    --text-color: white;
+    --text-width: 60%;
+    --accent-color: #ffa500;
+    --portfolio-image-gap: 8px;
+}
+
+@font-face {
+    font-family: barlowcondensed;
+    src: url(./assets/fonts/BarlowCondensed-Medium.ttf);
+}
+
+@font-face {
+    font-family: barlowcondensed-light;
+    src: url(./assets/fonts/BarlowCondensed-Light.ttf);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(./assets/fonts/Montserrat.ttf);
+}
+
+@font-face {
+    font-family: montserrat;
+    font-style: italic;
+    src: url(./assets/fonts/Montserrat-Italic.ttf);
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    background: var(--background);
+    color: var(--text-color);
+
+    font-family: montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    position: relative;
+    font-family: barlowcondensed, sans-serif;
+    font-size: 32px;
+    letter-spacing: .1rem;
+    z-index: -1;
+    padding-top: 24px;
+}
+
+h2 {
+    font-family: barlowcondensed, sans-serif;
+    font-size: 24px;
+    letter-spacing: .1rem;
+}
+
+h1:after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    bottom: -4px;
+    background: var(--accent-color);
+    left: 0;
+}
+
+blockquote {
+    padding-left: 12px;
+    font-size: 24px;
+    font-family: barlowcondensed-light, sans-serif;
+    letter-spacing: .1rem;
+    font-style: italic;
+}
+
+blockquote:before {
+    content: open-quote;
+    color: var(--accent-color);
+    margin-right: 2px;
+}
+
+blockquote:after {
+    content: close-quote;
+    color: var(--accent-color);
+    margin-left: 2px;
+}
+
+li::marker {
+    color: var(--accent-color);
+    content: "➤  ";
+}
+
+a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 1px;
+    left: 0;
+    background-color: var(--text-color);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.routes {
+    margin-top: 128px;
+    margin-bottom: calc(48px + var(--footer-height));
+}
