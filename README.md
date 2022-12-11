@@ -1,6 +1,6 @@
 # Ofen Froschhauser
 
-Simple portfolio website for my cousin. Available at [froschhauser.net](https://froschhauser.net).
+Simple portfolio website for my cousin. Soon available at [froschhauser.net](https://froschhauser.net).
 
 Consists of two parts:
 
