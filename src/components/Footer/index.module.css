@@ -9,7 +9,7 @@
     display: flex;
     flex-flow: row;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     box-sizing: border-box;
     gap: 24px;
     padding: 0 24px;
