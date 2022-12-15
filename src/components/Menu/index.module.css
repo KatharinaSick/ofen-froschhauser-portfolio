@@ -15,7 +15,6 @@
 .LogoContainer {
     position: relative;
     display: flex;
-    margin: 24px 0;
 
     flex-flow: column;
     align-items: center;
