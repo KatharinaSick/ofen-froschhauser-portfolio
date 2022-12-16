@@ -8,8 +8,8 @@ type Properties = {
 const Picture = (props: Properties) => {
     return (
         <ModalImage
-            small={`/ofen-froschhauser-portfolio/images/thumbs/${props.filename}`}
-            large={`/ofen-froschhauser-portfolio/images/fulls/${props.filename}`}
+            small={`/images/thumbs/${props.filename}`}
+            large={`/images/fulls/${props.filename}`}
             hideDownload={true}
             hideZoom={true}
         />

@@ -14,7 +14,7 @@ const Portfolio = () => {
     useEffect(() => {
         setIsLoading(true)
         setError(null)
-        fetch('/ofen-froschhauser-portfolio/images/index.json')
+        fetch('/images/index.json')
             .then(r => {
                 r.json()
                     .then(i => {
