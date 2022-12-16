@@ -1,7 +1,7 @@
 {
   "name": "ofen-froschhauser",
   "version": "0.1.0",
-  "homepage": "https://katharinasick.github.io/ofen-froschhauser-portfolio",
+  "homepage": "https://froschhauser.net",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
