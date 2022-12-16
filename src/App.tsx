@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {HashRouter, Route, Routes} from 'react-router-dom';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Menu from "./components/Menu";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
@@ -11,7 +11,7 @@ import Upload from "./components/Upload";
 
 const App = () => (
     <div>
-        <HashRouter>
+        <BrowserRouter>
             <Menu/>
 
             <div className={"routes"}>
@@ -24,7 +24,7 @@ const App = () => (
                 </Routes>
             </div>
             <Footer/>
-        </HashRouter>
+        </BrowserRouter>
     </div>
 )
 
