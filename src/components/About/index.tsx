@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './index.module.css';
 import picture from './richard-froschhauser.jpg'
+import {Link} from "react-router-dom";
 
 const About = () => {
     return (
@@ -43,8 +44,7 @@ const About = () => {
             <p>
                 All diese Öfen können in ganz unterschiedlicher Optik gestaltet werden. Gefällt Ihnen ein Ofen in
                 traditionellem „Gewand“, schlichter Eleganz oder doch lieber in moderner Betonoptik? Machen Sie
-                sich <a
-                href="#">hier</a> einen ersten Eindruck, welche Art von Ofen Ihnen zusagt.
+                sich <Link to={"/"}>hier</Link> einen ersten Eindruck, welche Art von Ofen Ihnen zusagt.
             </p>
             <p>
                 Ich freue mich über ein persönliches Beratungsgespräch, um mit meinem Wissen und meiner
