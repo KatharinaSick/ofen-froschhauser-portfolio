@@ -40,7 +40,7 @@ const Upload = () => {
                 },
             }
         )
-            .then(r => {
+            .then(_ => {
                 setLoading(false)
                 setSuccess(true)
                 setChosenFiles(null)
@@ -83,9 +83,9 @@ const Upload = () => {
                     </div>
                 }
                 {loading && <h2>Laden...</h2>}
-                {success && <h2>Bilder hochgeladen</h2>}
+                {success && <h2 style={{color: 'green'}}>Bilder hochgeladen</h2>}
                 {error && (<>
-                    <h2>Ein Fehler ist aufgetreten</h2>
+                    <h2 style={{color: 'red'}}>Ein Fehler ist aufgetreten</h2>
                     <span>{error}</span>
                 </>)}
             </div>

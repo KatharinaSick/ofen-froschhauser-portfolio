@@ -9,7 +9,7 @@
     flex-flow: row;
     align-items: center;
     justify-content: center;
-    gap: 48px;
+    gap: 32px;
 }
 
 .LogoContainer {
@@ -67,14 +67,13 @@
 @media screen and (max-width: 800px) {
     .Container {
         padding-top: 6px;
-        /*flex-flow: column;*/
         gap: 4px;
     }
 
     .LogoContainer {
         flex-flow: row;
         margin: 0;
-        width: 100px;
+        width: 150px;
     }
 
     .LogoDivider {
