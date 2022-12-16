@@ -23,6 +23,19 @@
     outline: 0;
     border-radius: 12px;
     padding: 4px 24px;
-    margin: 48px 0;
+    cursor: default;
+    width: 50%;
+}
+
+.Input {
+    font-family: barlowcondensed, sans-serif;
+    font-size: 24px;
+    letter-spacing: .1rem;
+    outline: 0;
+    border-radius: 12px;
+    padding: 4px 24px;
+    width: 50%;
+    margin-top: 48px;
+    margin-bottom: 24px;
 }
 

@@ -21,6 +21,7 @@
     row-gap: 4px;
     text-decoration: none;
     color: var(--text-color);
+    width: 200px;
 }
 
 .LogoText {
@@ -66,13 +67,14 @@
 @media screen and (max-width: 800px) {
     .Container {
         padding-top: 6px;
-        flex-flow: column;
+        /*flex-flow: column;*/
         gap: 4px;
     }
 
     .LogoContainer {
         flex-flow: row;
         margin: 0;
+        width: 100px;
     }
 
     .LogoDivider {

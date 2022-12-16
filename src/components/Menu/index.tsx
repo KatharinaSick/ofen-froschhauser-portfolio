@@ -9,7 +9,7 @@ const Menu = () => {
             <Link to={"/about"} className={styles.MenuItem}>Über Mich</Link>
 
             <Link to={"/"} className={styles.LogoContainer}>
-                <img src={Logo} alt="Ofen Froschhauser Logo" width={200}/>
+                <img src={Logo} alt="Ofen Froschhauser Logo" width="100%" />
             </Link>
 
             <Link to={"/contact"} className={styles.MenuItem}>Kontakt</Link>
